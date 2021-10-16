@@ -1,0 +1,11 @@
+### Make a Post
+POST http://localhost:4000/posts
+Content-Type: application/json
+
+{
+  "title": "blazza blah"
+}
+
+### Gets all posts
+GET http://localhost:4000/posts
+Content-Type: application/json
