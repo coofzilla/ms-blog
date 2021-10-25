@@ -1,6 +1,8 @@
 # base image
 FROM node:alpine
 
+ENV CI=true
+
 # specify directory, executes commands relative to this
 WORKDIR /app
 # copy from working directory to container
